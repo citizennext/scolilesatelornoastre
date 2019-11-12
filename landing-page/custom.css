@@ -1,6 +1,10 @@
 header {
     color: white;
 }
+.hide {
+    display: none;
+}
+
 .jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
