@@ -15,12 +15,17 @@
 </head>
 <body>
 <header>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="navbar navbar-dark bg-secondary shadow-sm">
         <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
                 <strong>Şcolile Satelor Noastre</strong>
             </a>
-
+            <div class="languages float-right">
+                    <a href="#ro" class="romanian">
+                        <img src="ro.png" class="ml-3" /></a>
+                    <a href="#uk" class="english">
+                        <img src="uk.png" class="img-responsive" /></a>
+            </div>
         </div>
     </div>
 </header>
@@ -28,18 +33,17 @@
 
 <main role="main">
 
-    <section class="jumbotron text-center" background-image: url("/img/institutions/bucharest.jpg")>
+    <section class="header jumbotron text-center section d-flex flex-column align-items-center justify-content-around" style="background-image: url('om-zapada.jpg');">
         <div class="container">
             <h1 class="jumbotron-heading">CAMPANIA DE IARNĂ</h1>
             <h3>Şcolile Satelor Noastre</h3>
-            <a href="https://mpy.ro/192x7xer" target="_blank" rel="noopener" class="btn btn-primary my-2">Donează</a>
+            <a href="https://mpy.ro/192x7xer" target="_blank" rel="noopener" class="btn btn-success my-2 btn-lg">Donează</a>
         </div>
     </section>
 
     <div class="album py-5 bg-light">
         <div class="container">
-
-            <div class="row">
+            <div class="row col-md-12">
                 <p>
                     Dragi prieteni,
                 </p>
@@ -81,15 +85,38 @@
                     decembrie 2019.
                 </p>
                 <p>
-                    Poţi utiliza butonul DONEAZĂ din acest site (transfer securizat) sau ne poţi face o donaţie prin
+                    Poţi utiliza butonul <a href="https://mpy.ro/192x7xer" target="_blank" rel="noopener"
+                                            class="btn btn-primary py-0 btn-sm ">DONEAZĂ</a> din acest site (transfer securizat) sau ne poţi face o donaţie prin
                     transfer bancar către:
                 </p>
-                <p>
+                <div class="card shadow mb-4 mt-1">
+                    <div class="card-body">
                     Asociaţia Sprijin pentru Comunitate şi Asistenţă Umanitară <br/>
                     IBAN <strong>RO24BACX0000001899088001</strong><br/>
                     Cod fiscal: 41837840<br/>
-                    Detalii plata: donatie Scolile Satelor Noastre<br/>
-                </p>
+                    Detalii plata: donatie Scolile Satelor Noastre
+                    </div>
+                </div>
+
+                <h2>
+                    De ce să donezi către Campania de Iarnă a programului Şcolile Satelor Noastre?
+                </h2>
+                <ul>
+                    <li>
+                        Pentru că aceşti copii au mare nevoie de sprijin, dar mai ales au nevoie să ştie că nu sunt
+                        singuri
+                    </li>
+                    <li>
+                        Pentru că vei primi la final un raport detaliat al întregii campanii, dacă ne laşi contactul tău
+                    </li>
+                    <li>
+                        Pentru că vei şti în ce şcoală ajunge donaţia ta
+                    </li>
+                </ul>
+                <div class="col-md-12 text-center">
+                    <a href="https://mpy.ro/192x7xer" target="_blank" rel="noopener"
+                       class="btn btn-primary btn-lg my-2">Donează</a>
+                </div>
             </div>
         </div>
     </div>
@@ -99,8 +126,12 @@
 
 <footer class="text-muted">
     <div class="container">
-        <p><a href="https://www.facebook.com/ScolileSatelorNoastre" target="_blank" rel="noopener">Urmărește-ne pe
-            Facebook</a></p>
+
+        <div class="row col-md-12 text-center align-middle">
+            <i class="fab fa-facebook-square pt-1"></i>
+                <a href="https://www.facebook.com/ScolileSatelorNoastre" target="_blank" class="pl-1"
+                                         rel="noopener">Ne găseşti şi pe Facebook</a>
+        </div>
     </div>
 </footer>
 
@@ -108,6 +139,8 @@
 <script type="text/javascript">
 
 </script>
+<script src="https://kit.fontawesome.com/6383071327.js" crossorigin="anonymous"></script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
