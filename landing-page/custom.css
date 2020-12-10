@@ -33,7 +33,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 33.8rem;
+    min-height: 23.8rem;
 }
 
 .languages img {
@@ -150,7 +150,6 @@ ul li:before {
 }
 
 footer {
-    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
